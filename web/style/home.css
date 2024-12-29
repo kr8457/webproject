@@ -1,0 +1,140 @@
+/* Header Styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f4f4f4;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+  top: 0px;
+  z-index: 19999;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo_img {
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .logo_contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .logo_contact-btn {
+    background-color: #ff5a5f;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .logo_contact-no {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav_items {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .nav_link {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    padding: 5px 10px;
+  }
+  
+  .nav_link:hover {
+    background-color: #ff5a5f;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  /* Footer Styling */
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+  }
+  
+  .footer_logos img {
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .footer_heading {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .footer_heading3 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #ccc;
+    margin-top: 0;
+  }
+  
+  .footer_links {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .footer_links a {
+    color: #ff5a5f;
+    text-decoration: none;
+  }
+  
+  .footer_links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Hero Section Styling */
+.hero {
+  height: 90vh;
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/hotel.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  color: white; /* Set text color to white or adjust to fit your background */
+  display: flex;
+  justify-content: center;  /* Horizontally centers the content */
+  align-items: center;      /* Vertically centers the content */
+  text-align: center;       /* Centers the text */
+  padding: 0 20px;          /* Add padding if needed */
+  flex-direction: column;   /* Ensures the heading and subtitle are stacked vertically */
+}
+
+.hero h1 {
+  font-size: 4rem;          /* Increase the size of the title */
+  font-weight: 700;          /* Make it bold */
+  margin-bottom: 20px;      /* Add space below the title */
+  letter-spacing: 2px;      /* Add spacing between letters */
+}
+
+.hero p {
+  font-size: 1.8rem;        /* Increase the size of the subtitle */
+  font-weight: 500;          /* Make it slightly lighter than the title */
+  color: #fff;              /* Make sure the text color contrasts well */
+  max-width: 80%;           /* Optional: Limit width for better readability */
+  margin-top: 0;            /* Optional: Remove default margin */
+}

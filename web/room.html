@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adventure Sarai Hotel: Your Gateway to Northern Wonders</title>
+    <link rel="icon" href="images/logo.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style/room.css" />
+    <script defer src="./script.js"></script>
+
+    <header class="header">
+      <div class="logo">
+        <img src="./images/logo.png" alt="Logo" class="logo_img" />
+        <div class="logo_contact">
+          <a href="contact.html" class="btn logo_contact-btn">Book Now</a>
+          <p class="logo_contact-no">+92 355 149666</p>
+        </div>
+      </div>
+      <nav class="nav">
+        <ul class="nav_items">
+          <li class="nav_item"><a href="home.html" class="nav_link">Home</a></li>
+          <li class="nav_item"><a href="room.html" class="nav_link">Rooms</a></li>
+          <li class="nav_item"><a href="dinning.html" class="nav_link">Dining</a></li>
+          <li class="nav_item">
+            <a href="activities.html" class="nav_link">Activities</a>
+          </li>
+          <li class="nav_item"><a href="gallary.html" class="nav_link">Gallery</a></li>
+          <li class="nav_item">
+            <a href="testimonials.html" class="nav_link">Testimonials</a>
+          </li>
+          <li class="nav_item"><a href="contact.html" class="nav_link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+
+    <!-- Rooms Section -->
+    <section class="rooms container">
+      <h2 class="heading-secondary rooms_heading">ROOMS</h2>
+      <h3 class="heading-tridary">YOUR COMFORT IS OUR PRIORITY</h3>
+      <p class="rooms_discription">
+        Adventure sarai hotel skardu offer 17 neat, clean and comfortable rooms
+        to spend great time in the north of pakistan. Here you can prepare for
+        your best holiday or rest and enjoy life while traveling. At Adventure
+        Sarai Hotel Skardu you can also organize a meeting, show or conference
+        using our Meeting Room
+      </p>
+      <div class="rooms_images">
+        
+        <div class="rooms_card">
+          <p class="rooms_card-price">6000 PRS</p>
+
+          <img
+            src="./images/Rooms/double-10.jpeg"
+            alt="room images"
+            class="rooms_image"
+          />
+          <ul class="rooms_details">
+            <p class="rooms_details-no">Room No 102</p>
+            <li class="rooms_data">
+              <span class="rooms_details-icons"
+                ><ion-icon name="home-outline"></ion-icon></span
+              >Ground floor
+            </li>
+            <li class="rooms_data">
+              <span class="rooms_details-icons"
+                ><ion-icon name="bed-outline"></ion-icon></span
+              >2 single beds
+            </li>
+            <li class="rooms_data">
+              <span class="rooms_details-icons"
+                ><ion-icon name="nuclear-outline"></ion-icon></span
+              >Ath.washroom
+            </li>
+
+            <li class="rooms_data">
+              <span class="rooms_details-icons"
+                ><ion-icon name="flame-outline"></ion-icon></span
+              >Hot water
+            </li>
+            <li class="rooms_data">
+              <span class="rooms_details-icons"
+                ><ion-icon name="wifi-outline"></ion-icon></span
+              >Free wifi
+            </li>
+            <li class="rooms_data">
+              <span class="rooms_details-icons"></span>
+            </li>
+            <li class="rooms_data">
+              <a href="#" class="btn rooms_btn-book rooms_btn">Book Now</a>
+            </li>
+            <li class="rooms_data">
+              <a href="#" class="btn rooms_btn-read rooms_btn">Read more</a>
+            </li>
+          </ul>
+        </div>
+        <div class="rooms_card">
+          <p class="rooms_card-price">6000 PRS</p>
+
+          <img
+            src="./images/Rooms/double-9.jpeg"
+            alt="room images"
+            class="rooms_image"
+          />
+          <ul class="rooms_details">
+            <p class="rooms_details-no">Room No 104</p>
+            <li class="rooms_data">
+              <span class="rooms_details-icons"
+                ><ion-icon name="home-outline"></ion-icon></span
+              >Ground floor
+            </li>
+            <li class="rooms_data">
+              <span class="rooms_details-icons"
+                ><ion-icon name="bed-outline"></ion-icon></span
+              >2 single beds
+            </li>
+            <li class="rooms_data">
+              <span class="rooms_details-icons"
+                ><ion-icon name="nuclear-outline"></ion-icon></span
+              >Ath.washroom
+            </li>
+
+            <li class="rooms_data">
+              <span class="rooms_details-icons"
+                ><ion-icon name="flame-outline"></ion-icon></span
+              >Hot water
+            </li>
+            <li class="rooms_data">
+              <span class="rooms_details-icons"
+                ><ion-icon name="wifi-outline"></ion-icon></span
+              >Free wifi
+            </li>
+            <li class="rooms_data">
+              <span class="rooms_details-icons"></span>
+            </li>
+            <li class="rooms_data">
+              <a href="#" class="btn rooms_btn-book rooms_btn">Book Now</a>
+            </li>
+            <li class="rooms_data">
+              <a href="#" class="btn rooms_btn-read rooms_btn">Read more</a>
+            </li>
+          </ul>
+        </div>
+        <div class="rooms_card">
+          <p class="rooms_card-price">6000 PRS</p>
+
+          <img
+            src="./images/rooms/double-4.jpeg"
+            alt="room images"
+            class="rooms_image"
+          />
+          <ul class="rooms_details">
+            <p class="rooms_details-no">Room No 105</p>
+            <li class="rooms_data">
+              <span class="rooms_details-icons"
+                ><ion-icon name="home-outline"></ion-icon></span
+              >Ground floor
+            </li>
+            <li class="rooms_data">
+              <span class="rooms_details-icons"
+                ><ion-icon name="bed-outline"></ion-icon></span
+              >1 double & 1 single beds
+            </li>
+            <li class="rooms_data">
+              <span class="rooms_details-icons"
+                ><ion-icon name="nuclear-outline"></ion-icon></span
+              >Ath.washroom
+            </li>
+
+            <li class="rooms_data">
+              <span class="rooms_details-icons"
+                ><ion-icon name="flame-outline"></ion-icon></span
+              >Hot water
+            </li>
+            <li class="rooms_data">
+              <span class="rooms_details-icons"
+                ><ion-icon name="wifi-outline"></ion-icon></span
+              >Free wifi
+            </li>
+            <li class="rooms_data">
+              <span class="rooms_details-icons"></span>
+            </li>
+            <li class="rooms_data">
+              <a href="#" class="btn rooms_btn-book rooms_btn">Book Now</a>
+            </li>
+            <li class="rooms_data">
+              <a href="#" class="btn rooms_btn-read rooms_btn">Read more</a>
+            </li>
+          </ul>
+        </div>
+        <div class="rooms_card">
+          <p class="rooms_card-price">6500 PRS</p>
+
+          <img
+            src="./images/Rooms/single-2.jpeg"
+            alt="room images"
+            class="rooms_image"
+          />
+          <ul class="rooms_details">
+            <p class="rooms_details-no">Room No 201</p>
+            <li class="rooms_data">
+              <span class="rooms_details-icons"
+                ><ion-icon name="home-outline"></ion-icon></span
+              >Second floor
+            </li>
+            <li class="rooms_data">
+              <span class="rooms_details-icons"
+                ><ion-icon name="bed-outline"></ion-icon></span
+              >1 double beds
+            </li>
+            <li class="rooms_data">
+              <span class="rooms_details-icons"
+                ><ion-icon name="nuclear-outline"></ion-icon></span
+              >Ath.washroom
+            </li>
+
+            <li class="rooms_data">
+              <span class="rooms_details-icons"
+                ><ion-icon name="flame-outline"></ion-icon></span
+              >Hot water
+            </li>
+            <li class="rooms_data">
+              <span class="rooms_details-icons"
+                ><ion-icon name="wifi-outline"></ion-icon></span
+              >Free wifi
+            </li>
+            <li class="rooms_data">
+              <span class="rooms_details-icons"
+                ><ion-icon name="leaf-outline"></ion-icon></span
+              >balcony
+            </li>
+            <li class="rooms_data">
+              <a href="#" class="btn rooms_btn-book rooms_btn">Book Now</a>
+            </li>
+            <li class="rooms_data">
+              <a href="#" class="btn rooms_btn-read rooms_btn">Read more</a>
+            </li>
+          </ul>
+        </div>
+        <div class="rooms_card">
+          <p class="rooms_card-price">6500 PRS</p>
+
+          <img
+            src="./images/rooms/double-10.jpeg"
+            alt="room images"
+            class="rooms_image"
+          />
+          <ul class="rooms_details">
+            <p class="rooms_details-no">Room No 202</p>
+            <li class="rooms_data">
+              <span class="rooms_details-icons"
+                ><ion-icon name="home-outline"></ion-icon></span
+              >Second floor
+            </li>
+            <li class="rooms_data">
+              <span class="rooms_details-icons"
+                ><ion-icon name="bed-outline"></ion-icon></span
+              >2 single beds
+            </li>
+            <li class="rooms_data">
+              <span class="rooms_details-icons"
+                ><ion-icon name="nuclear-outline"></ion-icon></span
+              >Ath.washroom
+            </li>
+
+            <li class="rooms_data">
+              <span class="rooms_details-icons"
+                ><ion-icon name="flame-outline"></ion-icon></span
+              >Hot water
+            </li>
+            <li class="rooms_data">
+              <span class="rooms_details-icons"
+                ><ion-icon name="wifi-outline"></ion-icon></span
+              >Free wifi
+            </li>
+            <li class="rooms_data">
+              <span class="rooms_details-icons"
+                ><ion-icon name="storefront-outline"></ion-icon></span
+              >Public terrace
+            </li>
+            <li class="rooms_data">
+              <a href="#" class="btn rooms_btn-book rooms_btn">Book Now</a>
+            </li>
+            <li class="rooms_data">
+              <a href="#" class="btn rooms_btn-read rooms_btn">Read more</a>
+            </li>
+          </ul>
+        </div>
+        <div class="rooms_card">
+          <p class="rooms_card-price">6500 PRS</p>
+
+          <img
+            src="./images/Rooms/double-5.jpeg"
+            alt="room images"
+            class="rooms_image"
+          />
+          <ul class="rooms_details">
+            <p class="rooms_details-no">Room No 203</p>
+            <li class="rooms_data">
+              <span class="rooms_details-icons"
+                ><ion-icon name="home-outline"></ion-icon></span
+              >Second floor
+            </li>
+            <li class="rooms_data">
+              <span class="rooms_details-icons"
+                ><ion-icon name="bed-outline"></ion-icon></span
+              >2 single beds
+            </li>
+            <li class="rooms_data">
+              <span class="rooms_details-icons"
+                ><ion-icon name="nuclear-outline"></ion-icon></span
+              >Ath.washroom
+            </li>
+
+            <li class="rooms_data">
+              <span class="rooms_details-icons"
+                ><ion-icon name="flame-outline"></ion-icon></span
+              >Hot water
+            </li>
+            <li class="rooms_data">
+              <span class="rooms_details-icons"
+                ><ion-icon name="wifi-outline"></ion-icon></span
+              >Free wifi
+            </li>
+            <li class="rooms_data">
+              <span class="rooms_details-icons"
+                ><ion-icon name="storefront-outline"></ion-icon></span
+              >Public terrace
+            </li>
+            <li class="rooms_data">
+              <a href="#" class="btn rooms_btn-book rooms_btn">Book Now</a>
+            </li>
+            <li class="rooms_data">
+              <a href="#" class="btn rooms_btn-read rooms_btn">Read more</a>
+            </li>
+          </ul>
+        </div>
+        
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer_logos">
+        <img src="./images/logo.png" alt="Logo" class="footer_logo" />
+      </div>
+      <h2 class="footer_heading">ADVENTURE SARAI HOTEL SKARDU</h2>
+      <h3 class="footer_heading3">YOUR COMFORT IS OUR PRIORITY</h3>
+      <div class="footer_links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Contact Us</a>
+      </div>
+    </footer>
+    

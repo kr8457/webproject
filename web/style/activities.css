@@ -1,0 +1,226 @@
+/* Header Styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f4f4f4;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+  top: 0px;
+  z-index: 19999;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo_img {
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .logo_contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .logo_contact-btn {
+    background-color: #ff5a5f;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .logo_contact-no {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav_items {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .nav_link {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    padding: 5px 10px;
+  }
+  
+  .nav_link:hover {
+    background-color: #ff5a5f;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  /* Footer Styling */
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+  }
+  
+  .footer_logos img {
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .footer_heading {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .footer_heading3 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #ccc;
+    margin-top: 0;
+  }
+  
+  .footer_links {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .footer_links a {
+    color: #ff5a5f;
+    text-decoration: none;
+  }
+  
+  .footer_links a:hover {
+    text-decoration: underline;
+  }
+/* Header Styling */
+
+  /* Hero Section Styling */
+  .hero {
+    height: 90vh;
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/skardu-hero.jpg); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    color: #000;
+  }
+  
+  .hero_textBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 1.4;
+  }
+  
+  .hero_heading {
+    letter-spacing: 2px;
+    margin-bottom: 1.2rem;
+  }
+  
+  .hero_text {
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+  
+  .hero_sub-heading {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+  }
+  
+  /* Activities Section */
+  .activities {
+    padding: 4rem 8rem;
+  }
+  
+  .activities_heading {
+    text-align: center;
+    font-size: 2.4rem;
+    margin-bottom: 3rem;
+    color: #ff5a5f;
+  }
+  
+  .activities_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 3rem;
+  }
+  
+  .activity_card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .activity_card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .activity_card-img {
+    height: 20rem;
+    object-fit: cover;
+  }
+  
+  .activity_card-content {
+    padding: 1.5rem;
+    text-align: center;
+  }
+  
+  .activity_card-title {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .activity_card-text {
+    font-size: 1.4rem;
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  
+  
+  /* Responsive Design for Navigation */
+  @media (max-width: 62.5em) {
+    .nav {
+      position: absolute;
+      left: 0;
+      top: 7rem;
+      background-color: #fff;
+      width: 50%;
+      height: 100vh;
+      padding: 4rem;
+      transition: all 0.4s;
+      transform: translateX(-100%);
+    }
+  
+    .nav_items {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 3rem;
+    }
+  
+    .nav_link {
+      color: #000;
+    }
+  }
+  
