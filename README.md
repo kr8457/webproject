@@ -84,7 +84,7 @@ webproject/
 ## Screenshot
 Below is a screenshot of the current design of the **Adventure Sarai Hotel** website:
 
-![Website Screenshot](./images/ss.png
+![Website Screenshot](web/images/ss.png
 )
 
 ---
