@@ -84,7 +84,8 @@ webproject/
 ## Screenshot
 Below is a screenshot of the current design of the **Adventure Sarai Hotel** website:
 
-![Website Screenshot](./images/rooms/sample-screenshot.jpeg)
+![Website Screenshot](./images/Adventure-Sarai-Hotel-Your-Gateway-to-Northern-Wonders (6).png
+)
 
 ---
 
