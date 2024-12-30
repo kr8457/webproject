@@ -81,6 +81,13 @@ webproject/
 
 ---
 
+## Screenshot
+Below is a screenshot of the current design of the **Adventure Sarai Hotel** website:
+
+![Website Screenshot](./images/rooms/sample-screenshot.jpeg)
+
+---
+
 ## License
 This project is licensed under the MIT License. You are free to use, modify, and distribute this project, provided that proper credit is given.
 
